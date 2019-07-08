@@ -1,4 +1,4 @@
-# Logical Programming Task
+# Epistemic Logic Task
 First task from the Logical Programming discipline. Interprets and solves the logical equations.
 
 ## Students
@@ -13,15 +13,15 @@ The available symbols for the logical equations are:
 - > ' v ' to 'or'
 - > ' ^ ' to 'and'
 - > ' ~ ' to 'denial'
-- > ' [] ' to 'for all'
-- > ' <> ' to 'exist'
+- > ' Ka ' to 'for all neighbor with edge to it with a'
+- > ' Ba ' to 'exist neighbor with edge to it with a'
 
 The equations can be put in the direct way, because the program makes the conversion to polonese notation and executes it.
 
 `Ex: (A v B) ^ C`
 
 ## Site
-https://ingridpacheco.github.io/trabalho-resolver-logica/
+https://ingridpacheco.github.io/epistemic-logic/
 
 ## Scripts
 
