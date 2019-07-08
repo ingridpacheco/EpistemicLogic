@@ -12,13 +12,14 @@ The available symbols for the logical equations are:
 - > ' ➡ ' to 'implies'
 - > ' v ' to 'or'
 - > ' ^ ' to 'and'
-- > ' ~ ' to 'denial'
+- > ' ! ' to 'denial'
 - > ' Ka ' to 'for all neighbor with edge to it with a'
 - > ' Ba ' to 'exist neighbor with edge to it with a'
+- > ' [] ' to 'public announcement' 
 
 The equations can be put in the direct way, because the program makes the conversion to polonese notation and executes it.
 
-`Ex: (A v B) ^ C`
+`Ex: [!1x]kz0x
 
 ## Site
 https://ingridpacheco.github.io/epistemic-logic/
