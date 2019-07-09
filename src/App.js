@@ -77,6 +77,7 @@ function createGraph(graph, vertices, rootNode){
   graph.addEdge('120', '210','Z');
   graph.addEdge('201', '210','X');
   graph.setRootNode(rootNode)
+
   return graph
 }
 
@@ -167,7 +168,7 @@ class App extends Component {
   }
 
   render() {
-    let {vertices} = this.state
+    let {vertices, graph} = this.state
     return (
       <div className="App" style={{backgroundColor: '#efeeee'}}>
         <div className="crop">
@@ -177,8 +178,23 @@ class App extends Component {
         <h2>Trabalho de Lógica em Programação</h2>
         <Paper elevation={2} style={{paddingTop: 20, paddingBottom: 20}}>
           <div style={{display: 'inline-grid'}}>
-          <FormLabel component="legend" style={{textAlign: 'left', fontSize: 14, paddingLeft: 15}}>Grafo Inicial</FormLabel>
-          <img src={grafo} alt="grafo" style={{width: 200}}/>
+            <div style={{display: 'flex'}}>
+              <div>
+                <FormLabel component="legend" style={{textAlign: 'left', fontSize: 14, paddingLeft: 15}}>Grafo Inicial</FormLabel>
+                <img src={grafo} alt="grafo" style={{width: 200}}/>
+              </div>
+              <div>
+                <FormLabel component="legend" style={{textAlign: 'left', fontSize: 14, paddingLeft: 15}}>Grafo Resultante</FormLabel>
+                <p>Vértices: </p>
+                {graph.getAllState().map(function(state){
+                  return `${state} `
+                })}
+                <p>Arestas: </p>
+                {graph.getEdges().map(function(edge){
+                  return (<div>{edge}</div>)
+                })}
+              </div>
+            </div>
           <FormLabel component="legend" style={{textAlign: 'left', fontSize: 14, paddingLeft: 15}}>Agentes</FormLabel>
           <p style={{textAlign: "left", fontWeight: "bold"}}>{'X, Y e Z'}</p>
               <FormControl component="fieldset">

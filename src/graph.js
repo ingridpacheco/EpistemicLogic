@@ -71,6 +71,35 @@ export default class Graph {
       return this.AdjList
     }
 
+    getAllState(){
+      let addStates = []
+      let states = this.AdjList.keys()
+      let counter = 0
+      while (counter < this.AdjList.size){
+        addStates.push(states.next().value)
+        counter++
+      }
+      return addStates
+    }
+
+    getEdges(){
+      let states = this.AdjList.keys()
+      let counter = 0
+      let edges = []
+      while (counter < this.AdjList.size){
+        let key = states.next().value
+        let values = this.AdjList.get(key)
+        for (let i = 0; i < values.length; i++){
+          let edge = key.concat(values[i])
+          let edge2 = values[i].concat(key)
+          let agent = this.EdgeLabel.get(edge) || this.EdgeLabel.get(edge2)
+          edges.push(`${key}-${agent}-${values[i]}`)
+        }
+        counter++
+      }
+      return edges
+    }
+
     removeStateFromSymbol(state){
       let keys = this.SymbolList.keys();
       let counter = 0
