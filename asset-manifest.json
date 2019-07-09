@@ -1,15 +1,15 @@
 {
-  "main.css": "/epistemic-logic/static/css/main.c0846c05.chunk.css",
-  "main.js": "/epistemic-logic/static/js/main.80aa7564.chunk.js",
-  "main.js.map": "/epistemic-logic/static/js/main.80aa7564.chunk.js.map",
+  "main.css": "/epistemic-logic/static/css/main.7221653a.chunk.css",
+  "main.js": "/epistemic-logic/static/js/main.ef2c465c.chunk.js",
+  "main.js.map": "/epistemic-logic/static/js/main.ef2c465c.chunk.js.map",
   "runtime~main.js": "/epistemic-logic/static/js/runtime~main.841cfc7e.js",
   "runtime~main.js.map": "/epistemic-logic/static/js/runtime~main.841cfc7e.js.map",
   "static/js/2.44015def.chunk.js": "/epistemic-logic/static/js/2.44015def.chunk.js",
   "static/js/2.44015def.chunk.js.map": "/epistemic-logic/static/js/2.44015def.chunk.js.map",
   "index.html": "/epistemic-logic/index.html",
-  "precache-manifest.0fa81542c56a79f2764d8baf59b5fe97.js": "/epistemic-logic/precache-manifest.0fa81542c56a79f2764d8baf59b5fe97.js",
+  "precache-manifest.97379931bec766fb1939a2d3951fcc62.js": "/epistemic-logic/precache-manifest.97379931bec766fb1939a2d3951fcc62.js",
   "service-worker.js": "/epistemic-logic/service-worker.js",
-  "static/css/main.c0846c05.chunk.css.map": "/epistemic-logic/static/css/main.c0846c05.chunk.css.map",
+  "static/css/main.7221653a.chunk.css.map": "/epistemic-logic/static/css/main.7221653a.chunk.css.map",
   "static/media/bg-index.jpg": "/epistemic-logic/static/media/bg-index.be70d7dd.jpg",
   "static/media/graph.png": "/epistemic-logic/static/media/graph.bdd94ea3.png"
 }

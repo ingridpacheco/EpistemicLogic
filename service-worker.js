@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/epistemic-logic/precache-manifest.0fa81542c56a79f2764d8baf59b5fe97.js"
+  "/epistemic-logic/precache-manifest.97379931bec766fb1939a2d3951fcc62.js"
 );
 
 workbox.clientsClaim();
