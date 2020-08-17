@@ -22,7 +22,7 @@ The equations can be put in the direct way, because the program makes the conver
 `Ex: [!1x]kz0x
 
 ## Site
-https://ingridpacheco.github.io/epistemic-logic/
+https://ingridpacheco.github.io/EpistemicLogic/
 
 ## Scripts
 
