@@ -1,15 +1,15 @@
 {
-  "main.css": "/epistemic-logic/static/css/main.7221653a.chunk.css",
-  "main.js": "/epistemic-logic/static/js/main.ef2c465c.chunk.js",
-  "main.js.map": "/epistemic-logic/static/js/main.ef2c465c.chunk.js.map",
-  "runtime~main.js": "/epistemic-logic/static/js/runtime~main.841cfc7e.js",
-  "runtime~main.js.map": "/epistemic-logic/static/js/runtime~main.841cfc7e.js.map",
-  "static/js/2.44015def.chunk.js": "/epistemic-logic/static/js/2.44015def.chunk.js",
-  "static/js/2.44015def.chunk.js.map": "/epistemic-logic/static/js/2.44015def.chunk.js.map",
-  "index.html": "/epistemic-logic/index.html",
-  "precache-manifest.97379931bec766fb1939a2d3951fcc62.js": "/epistemic-logic/precache-manifest.97379931bec766fb1939a2d3951fcc62.js",
-  "service-worker.js": "/epistemic-logic/service-worker.js",
-  "static/css/main.7221653a.chunk.css.map": "/epistemic-logic/static/css/main.7221653a.chunk.css.map",
-  "static/media/bg-index.jpg": "/epistemic-logic/static/media/bg-index.be70d7dd.jpg",
-  "static/media/graph.png": "/epistemic-logic/static/media/graph.bdd94ea3.png"
+  "main.css": "/EpistemicLogic/static/css/main.f245685c.chunk.css",
+  "main.js": "/EpistemicLogic/static/js/main.69d6e836.chunk.js",
+  "main.js.map": "/EpistemicLogic/static/js/main.69d6e836.chunk.js.map",
+  "runtime~main.js": "/EpistemicLogic/static/js/runtime~main.32c0e389.js",
+  "runtime~main.js.map": "/EpistemicLogic/static/js/runtime~main.32c0e389.js.map",
+  "static/js/2.44015def.chunk.js": "/EpistemicLogic/static/js/2.44015def.chunk.js",
+  "static/js/2.44015def.chunk.js.map": "/EpistemicLogic/static/js/2.44015def.chunk.js.map",
+  "index.html": "/EpistemicLogic/index.html",
+  "precache-manifest.2d48984a192d349595b96a9ec65d7f09.js": "/EpistemicLogic/precache-manifest.2d48984a192d349595b96a9ec65d7f09.js",
+  "service-worker.js": "/EpistemicLogic/service-worker.js",
+  "static/css/main.f245685c.chunk.css.map": "/EpistemicLogic/static/css/main.f245685c.chunk.css.map",
+  "static/media/bg-index.jpg": "/EpistemicLogic/static/media/bg-index.be70d7dd.jpg",
+  "static/media/graph.png": "/EpistemicLogic/static/media/graph.bdd94ea3.png"
 }
